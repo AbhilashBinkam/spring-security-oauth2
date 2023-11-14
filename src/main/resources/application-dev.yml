@@ -5,3 +5,13 @@ spring:
     password: admin
   jpa:
     show-sql: true
+
+imgur:
+  credentials:
+    clientId: 904ec65dba7e091
+    clientSecret: eb34c9de61594917f6a8c7adc87982bfcd6a4ded
+    refresh-access-token: 1ca3b5de4ce2793968be1b1d836e7b63fe750fcf
+
+  auth:
+    server:
+      url: https://api.imgur.com/oauth2/token

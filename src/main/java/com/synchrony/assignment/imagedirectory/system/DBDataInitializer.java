@@ -31,22 +31,22 @@ public class DBDataInitializer implements CommandLineRunner {
         // Create some users.
         ApplicationUser u1 = new ApplicationUser();
         u1.setId(1);
-        u1.setUsername("john");
-        u1.setPassword("123456");
+        u1.setUsername("adminuser");
+        u1.setPassword("admin123");
         u1.setEnabled(true);
         u1.setRoles("admin user");
 
         ApplicationUser u2 = new ApplicationUser();
         u2.setId(2);
-        u2.setUsername("eric");
-        u2.setPassword("654321");
+        u2.setUsername("firstUser");
+        u2.setPassword("firstUser123");
         u2.setEnabled(true);
         u2.setRoles("user");
 
         ApplicationUser u3 = new ApplicationUser();
         u3.setId(3);
-        u3.setUsername("tom");
-        u3.setPassword("qwerty");
+        u3.setUsername("secondUser");
+        u3.setPassword("secondUser123");
         u3.setEnabled(false);
         u3.setRoles("user");
 
